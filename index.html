@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+    <head> 
+        <title> Chillsan's Tip Calculator </title>
+        <link rel = "stylesheet" href="calculatorstyle.css">
+        <script src = "script.js"></script>
+    <head>
+        <body>
+        <!-- Header -->
+            <div id = "banner">
+                <h2> T I P B A E </h2> 
+            </div>
+
+        <!-- Overall Container -->
+            <div class = "container">
+                <div class = "card">
+                    <!-- Side 1 -->
+                    <div class = "side1">
+
+                        <form id = "billinfo">
+                            <span id = "billAmt">
+                                <h4>Bill</h4>
+                                <input type = "text" id = "amount" name = "billamt" placeholder="0">
+                            </span>
+                                <div class = "tipGroup">
+                                    <span id = "tipPercent"><h4>Select Tip %</h4>
+                                        <div class = "groupOne">
+                                            <button id = "5per" > 5 %</button>
+                                            <button id = "10per">10 %</button>
+                                            <button id = "15per">15 %</button>
+                                        </div>
+                                        <div class = "groupTwo">
+                                            <button id = "20per">20 %</button>
+                                            <button id = "25per">25 %</button>
+                                             <button id = "50per">50 %</button>
+                                        </div>
+                                    </span>
+                                </div>
+                                <span id = "totalPeople">
+                                    <label for = "people"><h4>Number of People</h4>
+                                    <input type = "text" id = "people" name = "people" placeholder="0">
+                                </span>
+                            </form>
+                        </div>
+                        <!-- Side 2 -->
+                        <div class = "side2">
+                            <div class = "calculations">
+                                <span id = "filler">
+                                    <h5> Tip Amount </h5>
+                                </span>
+                                <span id = "tipAmount">
+                                    <h1> 0.00 </h1>
+                                </span>
+                                <span id = "filler2">
+                                    <h5> Amount Per Person </h5>
+                                </span>
+                                <span id = "perPerson">
+                                    <h1> 0.00 </h1>
+                                </span>
+                                <button id = "calcReset">
+                                    <h4>Reset</h4>
+                                </button>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <!-- Footer  -->
+            <div class = "footer">
+                <ul>
+                    <li>Made by chillsan99</p>
+                    <li><a href = "#">GitHub</li>
+                    </ul>
+            </div>
+        </div>
+
+                
+
+    
+
