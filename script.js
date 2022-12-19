@@ -1,5 +1,3 @@
-
-
 function calculateTip5(){
     let amount = document.querySelector("#amount").value;
     let people = document.querySelector("#people").value
